@@ -16,7 +16,7 @@
             android:id="@+id/salario_bruto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
+            android:inputType="text|number"
             android:hint="Salário bruto"/>
     </android.support.design.widget.TextInputLayout>
 
@@ -27,7 +27,7 @@
             android:id="@+id/num_dependentes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="text|number"
             android:hint="Número de depentes"/>
     </android.support.design.widget.TextInputLayout>
 
@@ -38,7 +38,7 @@
             android:id="@+id/pensao_alimenticia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
+            android:inputType="text|number"
             tools:ignore="TextFields"
             android:hint="Pensão alimentícia"/>
     </android.support.design.widget.TextInputLayout>
@@ -50,7 +50,7 @@
             android:id="@+id/plano_saude"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
+            android:inputType="text|number"
             android:hint="Plano de saúde"/>
     </android.support.design.widget.TextInputLayout>
 
@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Outros descontos"
-            android:inputType="text" />
+            android:inputType="text|number" />
 
     </android.support.design.widget.TextInputLayout>
 
